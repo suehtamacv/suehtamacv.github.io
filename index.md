@@ -4,7 +4,7 @@ title: Home
 landing-title: Hi, my name is Matheus
 description: 
 image: 
-author: 
+author: Matheus de Araújo Cavalcante
 nav-menu: 
 ---
 
