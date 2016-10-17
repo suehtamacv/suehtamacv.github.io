@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Hi, my name is Forty
+landing-title: Hi, my name is Matheus
 description: 
 image: 
 author: 
@@ -17,7 +17,7 @@ nav-menu:
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
 			<ul class="actions">
-				<li><a href="#one" class="button next scrolly">Get Started</a></li>
+				<li><a href="#one" class="button next scrolly">And this is me</a></li>
 			</ul>
 		</div>
 	</div>
