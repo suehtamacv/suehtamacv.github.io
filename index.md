@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Home
+title: Matheus Cavalcante
 landing-title: Hi, my name is Matheus
 description: 
 image: 
-author: Matheus de Araújo Cavalcante
+author: Matheus Cavalcante
 nav-menu: 
 ---
 
