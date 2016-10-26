@@ -2,26 +2,6 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section>
-		<section class="split">
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
@@ -101,5 +81,19 @@
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/skel.min.js"></script>
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/util.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/jquery.mmenu.min.all.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $("#my-menu").mmenu().on( "closed.mm", function() {
+            $(".menu-button").show();
+         });
+      $(".menu-button").click(function() {
+        $(".menu-button").hide();
+        $("#my-menu").trigger("open.mm");
+      });
+   });
+</script>
 	<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>

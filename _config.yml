@@ -54,3 +54,7 @@ facebook:
   admins: 
 logo:
 google_site_verification: 
+
+collections:
+  publications:
+    output: false
