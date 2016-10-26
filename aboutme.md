@@ -32,8 +32,9 @@ nav-menu: yes
 			<h2>Who am I</h2>
 		</header>
 		
-<p> Hi there! I'm Matheus de Araújo Cavalcante, brazilian, currently twenty years old (already!). </p>
+		<p> Hi there! I'm Matheus <b>de Araújo Cavalcante</b>, currently twenty years old. I was born in Northeast Brazil, in a town called Campina Grande, but passed by whole childhood in a small (<i>really, really small</i>) town just near it, Remigio. </p>
 		
+		<p> When I was about twelve, my aunt started his undergraduate studies in Physics. She didn't finished it, and then I inherited all those books. I remember myself reading those books (of course, I could not understand the Calculus behind it), but nevertheless I fell for all those books - specially the fourth volume, "Optics qnd Quantum Physics" </p>
 </div>
 </section>
 
